@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    
+}
+body{
+    height: 100%;
+    background-color: pink;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+.container h1{
+    
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.container .main img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.container .photos img{
+    min-width: 100px;
+    height: 100px;
+    margin: 0px 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+.container #btn{
+    align-items: center;
+    justify-content: center;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+#player{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1.5rem;
+
+}
+#computer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+#result{
+    font-size: 2.6rem;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
+}
+.scoreP{
+    font-size: 1.8rem;
+    font-weight: bold;
+    
+}
+.scoreC{
+    font-size: 1.8rem;
+    font-weight: bold;
+    
+    
+}
+
+
+
+
+
